@@ -1,0 +1,26 @@
+body{
+    background-color: #282828;
+    color: white;
+}
+button{
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin: 1%
+}
+.container{
+    position: relative;
+    text-align: center;
+    width: 98%;
+    background-color: black;
+    padding: 1%;
+}
+#poziomczasu{
+    width: 50%;
+}
+.prawo{
+    position: absolute;
+    right: 0;
+    bottom: 50%;
+}
