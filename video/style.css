@@ -1,0 +1,50 @@
+        ::-webkit-media-controls {
+        display:none !important;
+}
+        body {
+            background-color: #323232;
+            transition: 6s;
+        }
+        video{
+            width: 900px;
+            z-index: -1;
+        }
+
+        .wideo-container {
+            position: relative;
+            
+        }
+        .kontrolki {
+            z-index: 2147483648;
+            position: absolute;
+            left: 0;
+            right: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* Stylizacja przycisków */
+        .kontrolki button {
+            background-color: transparent;
+            border: none;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        #play,
+        #fs {
+            width: 5%;
+        }
+
+        #poziomglosnosci,
+        #czas {
+            text-align: center;
+            width: 10%;
+        }
+
+        #poziomczasu {
+            width: 70%;
+        }
